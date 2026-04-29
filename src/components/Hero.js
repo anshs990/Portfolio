@@ -2,14 +2,17 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { FiGithub, FiLinkedin, FiMail, FiArrowRight } from 'react-icons/fi';
 
+
+const roles = [
+  'ML Engineer',
+  'AI Engineer',
+  'MLOps Engineer',
+  'Data Engineer',
+  'GenAI Engineer',
+];
+
 const Hero = ({ scrollToSection }) => {
-  const roles = [
-    'ML Engineer',
-    'AI Engineer',
-    'MLOps Engineer',
-    'Data Engineer',
-    'GenAI Engineer',
-  ];
+
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
   const [displayedText, setDisplayedText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
