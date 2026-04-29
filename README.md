@@ -69,7 +69,7 @@ npm install
 
 2. **Update package.json homepage** (already configured):
 ```json
-"homepage": "https://anshs990.github.io/portfolio"
+"homepage": "https://anshs990.github.io/Portfolio"
 ```
 
 3. **Deploy manually (one-time):**
