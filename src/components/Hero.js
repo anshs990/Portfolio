@@ -41,7 +41,7 @@ const Hero = ({ scrollToSection }) => {
     }, typingSpeed);
 
     return () => clearTimeout(timer);
-  }, [displayedText, isDeleting, currentRoleIndex, roles]);
+  }, [displayedText, isDeleting, currentRoleIndex]);
 
   const socialLinks = [
     {
